@@ -312,3 +312,29 @@ a h2{
     color: #FFFFFF;
     letter-spacing: 1px;
 }
+
+.detail{
+    padding-right: 10px;
+}
+
+.footer_text_desc{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer1{
+    color: #5c5c5c;
+    font-size: 15px;
+}
+
+.latestPosts{
+    display: flex;
+    flex-direction: column;
+}
+
+.latestPosts div{
+    padding-bottom: 20px;
+    font-size: 15px;
+    padding-right: 5px;
+}
