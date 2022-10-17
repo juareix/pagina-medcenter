@@ -256,6 +256,7 @@ footer{
 .fm_1, .fm_2, .fm_3{
     flex: 1;
     color: #FFFFFF;
+    padding: 0;
 }
 
 .fm_1{
@@ -299,4 +300,15 @@ footer .widget_title_text{
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+
+a h1{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+a h2{
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
 }
