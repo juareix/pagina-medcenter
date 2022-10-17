@@ -141,3 +141,67 @@ nav .active a, nav a:hover{
     margin-bottom: 20px;
     font-size: 12px;
 }
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    flex: 1;
+    background-color: #39a9e1;
+    margin-top: 10px;
+}
+
+aside .widget .widget_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget_item{
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
+    background-color: #39a9e1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_coments{
+    background-color: #39a9e1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
