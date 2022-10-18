@@ -191,6 +191,18 @@ aside .widget .widget_body{
     margin-bottom: 30px;
 }
 
+.appointmentItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.appointmentItem div{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    border-top: 1px solid #9b969685;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -357,6 +369,7 @@ a h2{
     width: 40px;
     height: 40px;
     margin-top: 40px;
+    margin-right: 10px;
     margin-bottom: 40px;
 }
 
@@ -373,6 +386,11 @@ a h2{
         left: 0;
         width: 100%;
         background-color: #FFFFFF;
+    }
+
+    nav a:hover{
+        background-color: #39aae1;
+        color: #FFFFFF;
     }
 
     header{
@@ -415,6 +433,7 @@ a h2{
     }
 
     #geral section{
+        margin-top: 20px;
         padding: 20px;
     }
 
