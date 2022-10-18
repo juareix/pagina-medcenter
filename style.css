@@ -328,12 +328,19 @@ a h2{
     font-size: 15px;
 }
 
-.latestPosts{
+.latestPosts, .latesttweets{
     display: flex;
     flex-direction: column;
 }
 
 .latestPosts div{
+    padding-bottom: 20px;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.latesttweets div{
+    color: #5c5c5c;
     padding-bottom: 20px;
     font-size: 15px;
     padding-right: 5px;
